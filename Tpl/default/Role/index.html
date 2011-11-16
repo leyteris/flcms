@@ -1,0 +1,35 @@
+<include file="Public:header" />
+        <div id="wrapper">
+        	<div id="maintitle">
+            	<span id="thistitle">>>管理权限等级</span>
+            	<a class="floatright" href="{:U('global/logout')}">注销</a>
+	            <span class="floatright">欢迎您！{@UserName}  </span>
+            </div>
+            <div id="main">
+              <table id="listtable" width="100%" border="1" align="center" cellpadding="0"  cellspacing="0">
+                <tr>
+                  <th width="9%" scope="col">编号</th>
+                  <th width="24%" scope="col">权限等级名称</th>
+                  <th width="10%" scope="col">删除权限</th>
+                  <th width="9%" scope="col">编辑权限</th>
+                  <th width="10%" scope="col">创建权限</th>
+                  <th width="18%" scope="col">是否超级管理员</th>
+                  <th width="20%" scope="col">操作</th>
+                </tr>
+                <volist name="list" id="vo">
+                <tr>
+                  <td>{$vo.id}</td>
+                  <td>{$vo.name}</td>
+                  <td>{$vo.delright}</td>
+                  <td>{$vo.editright}</td>
+                  <td>{$vo.creright}</td>
+                  <td>{$vo.issuper}</td>
+                  <td><a href="{:U('role/edit')}?id={$vo.id}">编辑</a>/<a href="{:U('role/delete')}?id={$vo.id}">删除</a></td>
+                </tr>
+                </volist>
+              </table>
+              <div class="left"><a href="{:U('role/add')}">增加权限等级</a></div>
+              <div id="page">{$page}</div>
+          </div>
+        </div>
+<include file="Public:footer" />

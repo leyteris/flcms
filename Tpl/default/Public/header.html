@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{$site.title}</title>
+        <load href= "__TMPL__Public/css/reset.css" /> 
+		<load href= "__TMPL__Public/css/fonts.css" />
+		<load href= "__TMPL__Public/css/css.css" /> 
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                <span><a>{$site.systitle}<em>{$site.version}</em></a></span>
+            </div>
+            <div id="c-menu">
+             	<span><a href="{:U('index/index')}"> <<返回首页</a></span>
+                <span><a href="{:U('article/add')}">撰写文章</a></span>
+                <span><a href="{:U('admin/index')}">管理文章</a></span>
+                <span><a href="{:U('category/index')}">管理分类</a></span>
+                <span><a href="{:U('user/index')}">管理用户</a></span>
+                <span><a href="{:U('role/index')}">管理权限</a></span>
+            </div>
+        </div>

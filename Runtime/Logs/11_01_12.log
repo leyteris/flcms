@@ -1,0 +1,1207 @@
+[ 2011-01-12T19:40:17+08:00 ] ERR: (ThinkException) 模板不存在[D:/wamp/www/flcms/Tpl/default/Index/add.html]
+[ 2011-01-12T19:41:36+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.025774s ]
+[ 2011-01-12T19:41:36+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.000999s ]
+[ 2011-01-12T19:41:36+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.001522s ]
+[ 2011-01-12T19:41:36+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T19:44:29+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.128223s ]
+[ 2011-01-12T19:44:29+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.000564s ]
+[ 2011-01-12T19:44:29+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.001226s ]
+[ 2011-01-12T19:44:29+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T19:54:45+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.112113s ]
+[ 2011-01-12T19:54:45+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.000680s ]
+[ 2011-01-12T19:54:45+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.001197s ]
+[ 2011-01-12T19:54:45+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T19:54:49+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.211097s ]
+[ 2011-01-12T19:54:49+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.000799s ]
+[ 2011-01-12T19:54:49+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.001708s ]
+[ 2011-01-12T19:54:49+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T19:55:06+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.116512s ]
+[ 2011-01-12T19:55:06+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.000554s ]
+[ 2011-01-12T19:55:06+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.001283s ]
+[ 2011-01-12T19:55:06+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T19:55:09+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.132732s ]
+[ 2011-01-12T19:55:09+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.049974s ]
+[ 2011-01-12T19:55:09+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T19:57:19+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.264323s ]
+[ 2011-01-12T19:57:19+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.035972s ]
+[ 2011-01-12T19:57:19+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T19:57:40+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.169911s ]
+[ 2011-01-12T19:57:40+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.048666s ]
+[ 2011-01-12T19:57:40+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T19:59:32+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.134205s ]
+[ 2011-01-12T19:59:32+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.038991s ]
+[ 2011-01-12T19:59:33+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T19:59:40+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.142158s ]
+[ 2011-01-12T19:59:40+08:00 ] SQL: INSERT INTO `fl_article` (`title`,`content`,`cid`) VALUES ('askldjaskld','asdasd','1') [ RunTime:0.126154s ]
+[ 2011-01-12T19:59:41+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.150301s ]
+[ 2011-01-12T19:59:41+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.095243s ]
+[ 2011-01-12T19:59:41+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:01:40+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.130497s ]
+[ 2011-01-12T20:01:40+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.045330s ]
+[ 2011-01-12T20:01:40+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:01:45+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.068230s ]
+[ 2011-01-12T20:01:46+08:00 ] SQL: INSERT INTO `fl_article` (`title`,`content`,`cid`) VALUES ('asdasasd','asdasasd','1') [ RunTime:0.100860s ]
+[ 2011-01-12T20:01:47+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.213966s ]
+[ 2011-01-12T20:01:47+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.000566s ]
+[ 2011-01-12T20:01:47+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.000925s ]
+[ 2011-01-12T20:01:47+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:02:01+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.135630s ]
+[ 2011-01-12T20:02:01+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.041680s ]
+[ 2011-01-12T20:02:01+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:05:03+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.127628s ]
+[ 2011-01-12T20:05:03+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.031586s ]
+[ 2011-01-12T20:05:03+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:05:32+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.227008s ]
+[ 2011-01-12T20:05:32+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T20:05:32+08:00 ] SQL: INSERT INTO `fl_article` (`title`,`content`,`cid`,`status`,`create_time`) VALUES ('3423234','2354234','1',1,1294833932) [ RunTime:0.158872s ]
+[ 2011-01-12T20:05:33+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.148488s ]
+[ 2011-01-12T20:05:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.000590s ]
+[ 2011-01-12T20:05:33+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.001233s ]
+[ 2011-01-12T20:05:33+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:06:44+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.124181s ]
+[ 2011-01-12T20:06:44+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.030643s ]
+[ 2011-01-12T20:06:44+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:06:48+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.237269s ]
+[ 2011-01-12T20:06:48+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T20:06:48+08:00 ] SQL: INSERT INTO `fl_article` (`title`,`content`,`cid`,`status`,`create_time`) VALUES ('234','234','1',1,1294834008) [ RunTime:0.092718s ]
+[ 2011-01-12T20:06:50+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.188431s ]
+[ 2011-01-12T20:06:50+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.002544s ]
+[ 2011-01-12T20:06:50+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.001375s ]
+[ 2011-01-12T20:06:50+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:13:00+08:00 ] SQL: SHOW COLUMNS FROM fl_artile_view [ RunTime:0.160956s ]
+[ 2011-01-12T20:13:00+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_artile_view` WHERE status=1 LIMIT 1  [ RunTime:0.000810s ]
+[ 2011-01-12T20:13:00+08:00 ] SQL: SELECT id,name,title,category_name,create_time FROM `fl_artile_view` WHERE status=1 ORDER BY id desc LIMIT 0,8  [ RunTime:0.001284s ]
+[ 2011-01-12T20:13:00+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:13:45+08:00 ] SQL: SHOW COLUMNS FROM fl_artile [ RunTime:0.241121s ]
+[ 2011-01-12T20:13:45+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.028860s ]
+[ 2011-01-12T20:13:45+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.053981s ]
+[ 2011-01-12T20:13:45+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_artile Artile  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 LIMIT 1  [ RunTime:0.052960s ]
+[ 2011-01-12T20:13:45+08:00 ] SQL: SELECT Artile.id AS id,Artile.title AS title,Artile.create_time AS create_time,Category.title AS category_name,User.name AS name FROM fl_artile Artile  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 ORDER BY Artile.id desc LIMIT 0,8  [ RunTime:0.001505s ]
+[ 2011-01-12T20:13:45+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:15:20+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.172117s ]
+[ 2011-01-12T20:15:20+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.071366s ]
+[ 2011-01-12T20:15:20+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.061464s ]
+[ 2011-01-12T20:15:20+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article Article  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 LIMIT 1  [ RunTime:0.101716s ]
+[ 2011-01-12T20:15:20+08:00 ] SQL: SELECT Article.id AS id,Article.title AS title,Article.create_time AS create_time,Category.title AS category_name,User.name AS name FROM fl_article Article  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 ORDER BY Article.id desc LIMIT 0,8  [ RunTime:0.014069s ]
+[ 2011-01-12T20:15:20+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:16:15+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.142723s ]
+[ 2011-01-12T20:16:15+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.168725s ]
+[ 2011-01-12T20:16:15+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.044532s ]
+[ 2011-01-12T20:16:16+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article Article  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 LIMIT 1  [ RunTime:0.038002s ]
+[ 2011-01-12T20:16:16+08:00 ] SQL: SELECT Article.id AS id,Article.title AS title,Article.create_time AS create_time,Category.name AS category_name,User.name AS name FROM fl_article Article  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 ORDER BY Article.id desc LIMIT 0,8  [ RunTime:0.001139s ]
+[ 2011-01-12T20:16:16+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:17:07+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.159152s ]
+[ 2011-01-12T20:17:07+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.047146s ]
+[ 2011-01-12T20:17:07+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.041152s ]
+[ 2011-01-12T20:17:07+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article Article  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 LIMIT 1  [ RunTime:0.049718s ]
+[ 2011-01-12T20:17:07+08:00 ] SQL: SELECT Article.id AS id,Article.title AS title,Article.create_time AS create_time,Category.name AS category_name,User.name AS name FROM fl_article Article  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 ORDER BY Article.id desc LIMIT 0,8  [ RunTime:0.000964s ]
+[ 2011-01-12T20:17:07+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:19:14+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.174449s ]
+[ 2011-01-12T20:19:14+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.039417s ]
+[ 2011-01-12T20:19:14+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.034186s ]
+[ 2011-01-12T20:19:14+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article Article  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 LIMIT 1  [ RunTime:0.032954s ]
+[ 2011-01-12T20:19:14+08:00 ] SQL: SELECT Article.id AS id,Article.title AS title,Article.create_time AS create_time,Category.name AS category_name,User.name AS name FROM fl_article Article  JOIN fl_category Category ON Artile.cid=Category.id  JOIN fl_user User ON Artile.uid=User.id WHERE status=1 ORDER BY Article.id desc LIMIT 0,8  [ RunTime:0.000785s ]
+[ 2011-01-12T20:19:14+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:21:18+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.258287s ]
+[ 2011-01-12T20:21:18+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.063706s ]
+[ 2011-01-12T20:21:18+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.021156s ]
+[ 2011-01-12T20:21:18+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON artile.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.045413s ]
+[ 2011-01-12T20:21:18+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON artile.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.001468s ]
+[ 2011-01-12T20:21:18+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:21:55+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.179445s ]
+[ 2011-01-12T20:21:55+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.040967s ]
+[ 2011-01-12T20:21:55+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.039326s ]
+[ 2011-01-12T20:21:55+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.032379s ]
+[ 2011-01-12T20:21:55+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.034470s ]
+[ 2011-01-12T20:21:55+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:23:45+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.203612s ]
+[ 2011-01-12T20:23:45+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.041665s ]
+[ 2011-01-12T20:23:45+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.048683s ]
+[ 2011-01-12T20:23:45+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.049227s ]
+[ 2011-01-12T20:23:45+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000964s ]
+[ 2011-01-12T20:23:45+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:23:51+08:00 ] ERR: (ThinkException) 模板不存在[D:/wamp/www/flcms/Tpl/default/Article/edit.html]
+[ 2011-01-12T20:24:57+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.168337s ]
+[ 2011-01-12T20:24:57+08:00 ] SQL: SELECT * FROM `fl_article` WHERE id=1 LIMIT 1  [ RunTime:0.104624s ]
+[ 2011-01-12T20:24:57+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:24:57+08:00 ] NOTIC: [8] Undefined variable: catelist dced81ce4adf0a0c2aa0e3274164dc64.php 第 38 行.
+[ 2011-01-12T20:31:10+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.185946s ]
+[ 2011-01-12T20:31:10+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.026895s ]
+[ 2011-01-12T20:31:10+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.108643s ]
+[ 2011-01-12T20:31:10+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.032681s ]
+[ 2011-01-12T20:31:10+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000795s ]
+[ 2011-01-12T20:31:10+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:31:12+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.147278s ]
+[ 2011-01-12T20:31:12+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.034337s ]
+[ 2011-01-12T20:31:12+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.031126s ]
+[ 2011-01-12T20:31:12+08:00 ] SQL: SELECT * FROM `fl_article` WHERE id=1 LIMIT 1  [ RunTime:0.036510s ]
+[ 2011-01-12T20:31:12+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:33:18+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.116160s ]
+[ 2011-01-12T20:33:18+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.047991s ]
+[ 2011-01-12T20:33:18+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.029248s ]
+[ 2011-01-12T20:33:18+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T20:33:43+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.255665s ]
+[ 2011-01-12T20:33:43+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.064373s ]
+[ 2011-01-12T20:33:43+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.063661s ]
+[ 2011-01-12T20:33:43+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.051840s ]
+[ 2011-01-12T20:33:43+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.001024s ]
+[ 2011-01-12T20:33:43+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:33:45+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.137393s ]
+[ 2011-01-12T20:33:45+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.042740s ]
+[ 2011-01-12T20:33:45+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.030649s ]
+[ 2011-01-12T20:33:45+08:00 ] SQL: SELECT * FROM `fl_article` WHERE id=1 LIMIT 1  [ RunTime:0.037099s ]
+[ 2011-01-12T20:33:45+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:33:49+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.148204s ]
+[ 2011-01-12T20:33:49+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.055309s ]
+[ 2011-01-12T20:33:49+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.031808s ]
+[ 2011-01-12T20:33:49+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T20:35:40+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.154148s ]
+[ 2011-01-12T20:35:41+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.068627s ]
+[ 2011-01-12T20:35:41+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.018281s ]
+[ 2011-01-12T20:35:41+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T20:36:51+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.121453s ]
+[ 2011-01-12T20:36:51+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.063973s ]
+[ 2011-01-12T20:36:51+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.032812s ]
+[ 2011-01-12T20:36:51+08:00 ] SQL: SELECT * FROM `fl_article` WHERE id=1 LIMIT 1  [ RunTime:0.051616s ]
+[ 2011-01-12T20:36:51+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:37:39+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.140611s ]
+[ 2011-01-12T20:37:39+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.051664s ]
+[ 2011-01-12T20:37:39+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.031944s ]
+[ 2011-01-12T20:37:40+08:00 ] SQL: SELECT * FROM `fl_article` WHERE id=1 LIMIT 1  [ RunTime:0.039190s ]
+[ 2011-01-12T20:37:40+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:37:45+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.125987s ]
+[ 2011-01-12T20:37:45+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.037481s ]
+[ 2011-01-12T20:37:45+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.032848s ]
+[ 2011-01-12T20:37:45+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T20:38:33+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.167388s ]
+[ 2011-01-12T20:38:34+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.034357s ]
+[ 2011-01-12T20:38:34+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.032074s ]
+[ 2011-01-12T20:38:34+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T20:38:41+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.139707s ]
+[ 2011-01-12T20:38:41+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.038564s ]
+[ 2011-01-12T20:38:42+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.032020s ]
+[ 2011-01-12T20:38:42+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T20:39:59+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.181120s ]
+[ 2011-01-12T20:39:59+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.036995s ]
+[ 2011-01-12T20:39:59+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.075340s ]
+[ 2011-01-12T20:39:59+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.038553s ]
+[ 2011-01-12T20:39:59+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000576s ]
+[ 2011-01-12T20:39:59+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:49:19+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.189694s ]
+[ 2011-01-12T20:49:19+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.038418s ]
+[ 2011-01-12T20:49:19+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.060630s ]
+[ 2011-01-12T20:49:19+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.031129s ]
+[ 2011-01-12T20:49:19+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000972s ]
+[ 2011-01-12T20:49:19+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:49:54+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.202405s ]
+[ 2011-01-12T20:49:54+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.060299s ]
+[ 2011-01-12T20:49:54+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.048777s ]
+[ 2011-01-12T20:49:54+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.033146s ]
+[ 2011-01-12T20:49:54+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000750s ]
+[ 2011-01-12T20:49:54+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:50:13+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.217877s ]
+[ 2011-01-12T20:50:13+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.060237s ]
+[ 2011-01-12T20:50:14+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.001039s ]
+[ 2011-01-12T20:50:14+08:00 ] NOTIC: [8] Undefined variable: site 65df46e0618e5a9da434eaa916941786.php 第 5 行.
+[ 2011-01-12T20:55:07+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.133562s ]
+[ 2011-01-12T20:55:07+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.032700s ]
+[ 2011-01-12T20:55:07+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T20:55:07+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T20:55:13+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.182485s ]
+[ 2011-01-12T20:55:13+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.081150s ]
+[ 2011-01-12T20:55:13+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.053247s ]
+[ 2011-01-12T20:55:13+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.068424s ]
+[ 2011-01-12T20:55:13+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000856s ]
+[ 2011-01-12T20:55:13+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T20:57:22+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.152978s ]
+[ 2011-01-12T20:57:22+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.053314s ]
+[ 2011-01-12T20:57:22+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.002474s ]
+[ 2011-01-12T20:57:23+08:00 ] NOTIC: [8] Undefined variable: site 65df46e0618e5a9da434eaa916941786.php 第 5 行.
+[ 2011-01-12T20:59:17+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.110349s ]
+[ 2011-01-12T20:59:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.033096s ]
+[ 2011-01-12T20:59:17+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.001082s ]
+[ 2011-01-12T20:59:17+08:00 ] NOTIC: [8] Undefined variable: site 65df46e0618e5a9da434eaa916941786.php 第 5 行.
+[ 2011-01-12T20:59:20+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.156881s ]
+[ 2011-01-12T20:59:20+08:00 ] SQL: SELECT * FROM `fl_category` WHERE id=1 LIMIT 1  [ RunTime:0.035839s ]
+[ 2011-01-12T20:59:20+08:00 ] NOTIC: [8] Undefined variable: site 2034ea1c06eabeafacc243535eb2592c.php 第 5 行.
+[ 2011-01-12T20:59:51+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.128793s ]
+[ 2011-01-12T20:59:51+08:00 ] SQL: SELECT * FROM `fl_category` WHERE id=1 LIMIT 1  [ RunTime:0.031438s ]
+[ 2011-01-12T20:59:51+08:00 ] NOTIC: [8] Undefined variable: site 2034ea1c06eabeafacc243535eb2592c.php 第 5 行.
+[ 2011-01-12T21:00:00+08:00 ] NOTIC: [8] Undefined variable: site 2034ea1c06eabeafacc243535eb2592c.php 第 5 行.
+[ 2011-01-12T21:00:00+08:00 ] NOTIC: [8] Undefined variable: isedit 2034ea1c06eabeafacc243535eb2592c.php 第 24 行.
+[ 2011-01-12T21:00:10+08:00 ] NOTIC: [8] Undefined variable: site 2034ea1c06eabeafacc243535eb2592c.php 第 5 行.
+[ 2011-01-12T21:00:10+08:00 ] NOTIC: [8] Undefined variable: isedit 2034ea1c06eabeafacc243535eb2592c.php 第 24 行.
+[ 2011-01-12T21:01:07+08:00 ] NOTIC: [8] Undefined variable: site 2034ea1c06eabeafacc243535eb2592c.php 第 5 行.
+[ 2011-01-12T21:01:07+08:00 ] NOTIC: [8] Undefined variable: isedit 2034ea1c06eabeafacc243535eb2592c.php 第 24 行.
+[ 2011-01-12T21:01:10+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.145879s ]
+[ 2011-01-12T21:01:10+08:00 ] SQL: INSERT INTO `fl_category` (`name`) VALUES ('2343234') [ RunTime:0.140843s ]
+[ 2011-01-12T21:01:11+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.137144s ]
+[ 2011-01-12T21:01:11+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.050789s ]
+[ 2011-01-12T21:01:11+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.001729s ]
+[ 2011-01-12T21:01:11+08:00 ] NOTIC: [8] Undefined variable: site 65df46e0618e5a9da434eaa916941786.php 第 5 行.
+[ 2011-01-12T21:02:01+08:00 ] NOTIC: [8] Undefined variable: site 2034ea1c06eabeafacc243535eb2592c.php 第 5 行.
+[ 2011-01-12T21:02:01+08:00 ] NOTIC: [8] Undefined variable: isedit 2034ea1c06eabeafacc243535eb2592c.php 第 24 行.
+[ 2011-01-12T21:02:05+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.137835s ]
+[ 2011-01-12T21:02:05+08:00 ] SQL: INSERT INTO `fl_category` (`name`,`create_time`) VALUES ('234233423',1294837325) [ RunTime:0.107667s ]
+[ 2011-01-12T21:02:06+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.110888s ]
+[ 2011-01-12T21:02:06+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.037923s ]
+[ 2011-01-12T21:02:06+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000754s ]
+[ 2011-01-12T21:02:06+08:00 ] NOTIC: [8] Undefined variable: site 65df46e0618e5a9da434eaa916941786.php 第 5 行.
+[ 2011-01-12T21:14:27+08:00 ] ERR: (ThinkException) 无法加载模块User
+[ 2011-01-12T21:14:49+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.030493s ]
+[ 2011-01-12T21:14:49+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.218769s ]
+[ 2011-01-12T21:14:50+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_user user  JOIN fl_role role ON user.rid=role.id LIMIT 1  [ RunTime:0.147345s ]
+[ 2011-01-12T21:14:50+08:00 ] SQL: SELECT user.id AS id,user.name AS name,user.create_time AS create_time,role.name AS role_name FROM fl_user user  JOIN fl_role role ON user.rid=role.id ORDER BY user.id desc LIMIT 0,8  [ RunTime:0.001113s ]
+[ 2011-01-12T21:14:50+08:00 ] NOTIC: [8] Undefined variable: site 376c110d76cc23c91e9d2774dfb19bf0.php 第 5 行.
+[ 2011-01-12T21:15:59+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.246460s ]
+[ 2011-01-12T21:15:59+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.052366s ]
+[ 2011-01-12T21:15:59+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_user user  JOIN fl_role role ON user.rid=role.id LIMIT 1  [ RunTime:0.049276s ]
+[ 2011-01-12T21:15:59+08:00 ] SQL: SELECT user.id AS id,user.name AS name,user.create_time AS create_time,role.name AS role_name FROM fl_user user  JOIN fl_role role ON user.rid=role.id ORDER BY user.id desc LIMIT 0,8  [ RunTime:0.001187s ]
+[ 2011-01-12T21:16:00+08:00 ] NOTIC: [8] Undefined variable: site 376c110d76cc23c91e9d2774dfb19bf0.php 第 5 行.
+[ 2011-01-12T21:16:32+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T21:29:04+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.137056s ]
+[ 2011-01-12T21:29:04+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.066587s ]
+[ 2011-01-12T21:29:04+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.005289s ]
+[ 2011-01-12T21:29:04+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:30:42+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.110683s ]
+[ 2011-01-12T21:30:42+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.051256s ]
+[ 2011-01-12T21:30:42+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000719s ]
+[ 2011-01-12T21:30:42+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:37:33+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.132258s ]
+[ 2011-01-12T21:37:33+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.037654s ]
+[ 2011-01-12T21:37:33+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.026578s ]
+[ 2011-01-12T21:37:33+08:00 ] SQL: SELECT * FROM `fl_article` WHERE id=1 LIMIT 1  [ RunTime:0.053001s ]
+[ 2011-01-12T21:37:33+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T21:39:20+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.123862s ]
+[ 2011-01-12T21:39:20+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.040385s ]
+[ 2011-01-12T21:39:20+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000679s ]
+[ 2011-01-12T21:39:20+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:39:33+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.132867s ]
+[ 2011-01-12T21:39:33+08:00 ] SQL: SELECT * FROM `fl_role` WHERE id=1 LIMIT 1  [ RunTime:0.033432s ]
+[ 2011-01-12T21:39:33+08:00 ] NOTIC: [8] Undefined variable: cate RoleAction.class.php 第 67 行.
+[ 2011-01-12T21:40:22+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.464577s ]
+[ 2011-01-12T21:40:22+08:00 ] SQL: SELECT * FROM `fl_role` WHERE id=1 LIMIT 1  [ RunTime:0.057210s ]
+[ 2011-01-12T21:40:22+08:00 ] NOTIC: [8] Undefined variable: cate RoleAction.class.php 第 67 行.
+[ 2011-01-12T21:40:48+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.129360s ]
+[ 2011-01-12T21:40:48+08:00 ] SQL: SELECT * FROM `fl_role` WHERE id=1 LIMIT 1  [ RunTime:0.050924s ]
+[ 2011-01-12T21:40:48+08:00 ] NOTIC: [8] Undefined variable: site bdb8e6895926f7a8f143fbf307baf857.php 第 5 行.
+[ 2011-01-12T21:40:58+08:00 ] NOTIC: [8] Undefined variable: site bdb8e6895926f7a8f143fbf307baf857.php 第 5 行.
+[ 2011-01-12T21:40:58+08:00 ] NOTIC: [8] Undefined variable: isedit bdb8e6895926f7a8f143fbf307baf857.php 第 24 行.
+[ 2011-01-12T21:41:14+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.104175s ]
+[ 2011-01-12T21:41:14+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.054726s ]
+[ 2011-01-12T21:41:14+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.035435s ]
+[ 2011-01-12T21:41:14+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T21:41:14+08:00 ] SQL: INSERT INTO `fl_article` (`title`,`status`,`create_time`) VALUES ('前台人员',1,1294839674) [ RunTime:0.122411s ]
+[ 2011-01-12T21:41:15+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.172930s ]
+[ 2011-01-12T21:41:15+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.037862s ]
+[ 2011-01-12T21:41:15+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.038626s ]
+[ 2011-01-12T21:41:15+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.075252s ]
+[ 2011-01-12T21:41:15+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.001634s ]
+[ 2011-01-12T21:41:15+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T21:42:04+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.122817s ]
+[ 2011-01-12T21:42:04+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.053475s ]
+[ 2011-01-12T21:42:04+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000795s ]
+[ 2011-01-12T21:42:04+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:42:09+08:00 ] NOTIC: [8] Undefined variable: site bdb8e6895926f7a8f143fbf307baf857.php 第 5 行.
+[ 2011-01-12T21:42:09+08:00 ] NOTIC: [8] Undefined variable: isedit bdb8e6895926f7a8f143fbf307baf857.php 第 24 行.
+[ 2011-01-12T21:42:19+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.114816s ]
+[ 2011-01-12T21:42:19+08:00 ] SQL: INSERT INTO `fl_role` (`delright`,`editright`,`creright`) VALUES ('0','1','1') [ RunTime:0.129762s ]
+[ 2011-01-12T21:42:20+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.114624s ]
+[ 2011-01-12T21:42:20+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.051430s ]
+[ 2011-01-12T21:42:20+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000882s ]
+[ 2011-01-12T21:42:20+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:43:11+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.128428s ]
+[ 2011-01-12T21:43:11+08:00 ] SQL: DELETE FROM `fl_user` WHERE ( `id` = '2' ) [ RunTime:0.100679s ]
+[ 2011-01-12T21:44:48+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.127426s ]
+[ 2011-01-12T21:44:48+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.061749s ]
+[ 2011-01-12T21:44:48+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.001100s ]
+[ 2011-01-12T21:44:48+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:45:03+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.106647s ]
+[ 2011-01-12T21:45:03+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.042630s ]
+[ 2011-01-12T21:45:03+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.001225s ]
+[ 2011-01-12T21:45:03+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:45:05+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.102183s ]
+[ 2011-01-12T21:45:06+08:00 ] SQL: DELETE FROM `fl_role` WHERE ( `id` = '2' ) [ RunTime:0.139602s ]
+[ 2011-01-12T21:45:07+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.115359s ]
+[ 2011-01-12T21:45:07+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.042439s ]
+[ 2011-01-12T21:45:07+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.001476s ]
+[ 2011-01-12T21:45:07+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:45:14+08:00 ] NOTIC: [8] Undefined variable: site bdb8e6895926f7a8f143fbf307baf857.php 第 5 行.
+[ 2011-01-12T21:45:14+08:00 ] NOTIC: [8] Undefined variable: isedit bdb8e6895926f7a8f143fbf307baf857.php 第 24 行.
+[ 2011-01-12T21:45:36+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.150722s ]
+[ 2011-01-12T21:45:36+08:00 ] SQL: INSERT INTO `fl_role` (`name`,`delright`,`editright`,`creright`) VALUES ('前台人员','0','1','1') [ RunTime:0.161595s ]
+[ 2011-01-12T21:45:38+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.115334s ]
+[ 2011-01-12T21:45:38+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_role` LIMIT 1  [ RunTime:0.044721s ]
+[ 2011-01-12T21:45:38+08:00 ] SQL: SELECT * FROM `fl_role` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000957s ]
+[ 2011-01-12T21:45:38+08:00 ] NOTIC: [8] Undefined variable: site 41eca3881adb8ec43143463ba8a7fcc9.php 第 5 行.
+[ 2011-01-12T21:46:18+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.163132s ]
+[ 2011-01-12T21:46:18+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.054762s ]
+[ 2011-01-12T21:46:18+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T21:46:18+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T21:46:20+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.161409s ]
+[ 2011-01-12T21:46:20+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.090088s ]
+[ 2011-01-12T21:46:20+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.080224s ]
+[ 2011-01-12T21:46:20+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.050257s ]
+[ 2011-01-12T21:46:20+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000746s ]
+[ 2011-01-12T21:46:20+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T21:46:22+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.129117s ]
+[ 2011-01-12T21:46:22+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.058334s ]
+[ 2011-01-12T21:46:22+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000822s ]
+[ 2011-01-12T21:46:22+08:00 ] NOTIC: [8] Undefined variable: site 65df46e0618e5a9da434eaa916941786.php 第 5 行.
+[ 2011-01-12T21:57:43+08:00 ] ERR: (ThinkException) Action:site您所请求的方法不存在！
+[ 2011-01-12T21:58:32+08:00 ] ERR: (ThinkException) Action:site您所请求的方法不存在！
+[ 2011-01-12T21:59:13+08:00 ] NOTIC: [8] Undefined variable: site GlobalAction.class.php 第 30 行.
+[ 2011-01-12T21:59:13+08:00 ] NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array GlobalAction.class.php 第 30 行.
+[ 2011-01-12T21:59:13+08:00 ] ERR: (ThinkException) 非法操作css
+[ 2011-01-12T21:59:13+08:00 ] ERR: (ThinkException) 非法操作css
+[ 2011-01-12T21:59:13+08:00 ] ERR: (ThinkException) 非法操作css
+[ 2011-01-12T22:00:04+08:00 ] NOTIC: [8] Undefined variable: site GlobalAction.class.php 第 30 行.
+[ 2011-01-12T22:00:04+08:00 ] NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array GlobalAction.class.php 第 30 行.
+[ 2011-01-12T22:00:12+08:00 ] NOTIC: [8] Undefined variable: site GlobalAction.class.php 第 30 行.
+[ 2011-01-12T22:00:12+08:00 ] NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array GlobalAction.class.php 第 30 行.
+[ 2011-01-12T22:02:19+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.140320s ]
+[ 2011-01-12T22:02:19+08:00 ] SQL: SELECT * FROM `fl_user` WHERE ( `name` = 'admin' ) AND ( `password` = 'fd45ebc1e1d76bc1fe0ba933e60e9957' ) LIMIT 1  [ RunTime:0.051534s ]
+[ 2011-01-12T22:04:21+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.117786s ]
+[ 2011-01-12T22:04:21+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.062878s ]
+[ 2011-01-12T22:04:21+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:04:21+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:04:21+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:06:34+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.074303s ]
+[ 2011-01-12T22:06:34+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.097101s ]
+[ 2011-01-12T22:06:34+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:06:34+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:06:34+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:06:46+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.105781s ]
+[ 2011-01-12T22:06:46+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.037619s ]
+[ 2011-01-12T22:06:46+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.026103s ]
+[ 2011-01-12T22:06:46+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T22:06:46+08:00 ] SQL: INSERT INTO `fl_user` (`password`,`rid`,`create_time`) VALUES ('123123','1',1294841206) [ RunTime:0.168283s ]
+[ 2011-01-12T22:06:47+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.098546s ]
+[ 2011-01-12T22:06:47+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.039104s ]
+[ 2011-01-12T22:06:47+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.065284s ]
+[ 2011-01-12T22:06:47+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.050368s ]
+[ 2011-01-12T22:06:47+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_user user  JOIN fl_role role ON user.rid=role.id LIMIT 1  [ RunTime:0.038332s ]
+[ 2011-01-12T22:06:47+08:00 ] SQL: SELECT user.id AS id,user.name AS name,user.create_time AS create_time,role.name AS role_name FROM fl_user user  JOIN fl_role role ON user.rid=role.id ORDER BY user.id desc LIMIT 0,8  [ RunTime:0.001510s ]
+[ 2011-01-12T22:06:47+08:00 ] NOTIC: [8] Undefined variable: site 376c110d76cc23c91e9d2774dfb19bf0.php 第 5 行.
+[ 2011-01-12T22:07:09+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.138026s ]
+[ 2011-01-12T22:07:09+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.032163s ]
+[ 2011-01-12T22:07:09+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.015056s ]
+[ 2011-01-12T22:07:09+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id=2 LIMIT 1  [ RunTime:0.031908s ]
+[ 2011-01-12T22:07:09+08:00 ] NOTIC: [8] Undefined variable: cate UserAction.class.php 第 81 行.
+[ 2011-01-12T22:09:55+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.127251s ]
+[ 2011-01-12T22:09:55+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.034670s ]
+[ 2011-01-12T22:09:55+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.098199s ]
+[ 2011-01-12T22:09:55+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.074717s ]
+[ 2011-01-12T22:09:55+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_user user  JOIN fl_role role ON user.rid=role.id LIMIT 1  [ RunTime:0.045269s ]
+[ 2011-01-12T22:09:55+08:00 ] SQL: SELECT user.id AS id,user.name AS name,user.create_time AS create_time,role.name AS role_name FROM fl_user user  JOIN fl_role role ON user.rid=role.id ORDER BY user.id desc LIMIT 0,8  [ RunTime:0.001591s ]
+[ 2011-01-12T22:09:55+08:00 ] NOTIC: [8] Undefined variable: site 376c110d76cc23c91e9d2774dfb19bf0.php 第 5 行.
+[ 2011-01-12T22:10:12+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.105413s ]
+[ 2011-01-12T22:10:12+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.058521s ]
+[ 2011-01-12T22:10:12+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.014561s ]
+[ 2011-01-12T22:10:13+08:00 ] SQL: DELETE FROM `fl_user` WHERE ( `id` = '2' ) [ RunTime:0.113620s ]
+[ 2011-01-12T22:10:38+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.131755s ]
+[ 2011-01-12T22:10:38+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.039538s ]
+[ 2011-01-12T22:10:39+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.112962s ]
+[ 2011-01-12T22:10:39+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.083590s ]
+[ 2011-01-12T22:10:39+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_user user  JOIN fl_role role ON user.rid=role.id LIMIT 1  [ RunTime:0.050976s ]
+[ 2011-01-12T22:10:39+08:00 ] SQL: SELECT user.id AS id,user.name AS name,user.create_time AS create_time,role.name AS role_name FROM fl_user user  JOIN fl_role role ON user.rid=role.id ORDER BY user.id desc LIMIT 0,8  [ RunTime:0.001720s ]
+[ 2011-01-12T22:10:39+08:00 ] NOTIC: [8] Undefined variable: site 376c110d76cc23c91e9d2774dfb19bf0.php 第 5 行.
+[ 2011-01-12T22:10:44+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.096672s ]
+[ 2011-01-12T22:10:44+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.042135s ]
+[ 2011-01-12T22:10:44+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:10:44+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:10:44+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:11:42+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.111407s ]
+[ 2011-01-12T22:11:42+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.054077s ]
+[ 2011-01-12T22:11:42+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:11:42+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:11:42+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:11:50+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.095978s ]
+[ 2011-01-12T22:11:50+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.037734s ]
+[ 2011-01-12T22:11:50+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:11:50+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.030527s ]
+[ 2011-01-12T22:11:50+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash Model.class.php 第 835 行.
+[ 2011-01-12T22:12:00+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.086781s ]
+[ 2011-01-12T22:12:00+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.055546s ]
+[ 2011-01-12T22:12:00+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:12:00+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.025960s ]
+[ 2011-01-12T22:12:00+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash Model.class.php 第 835 行.
+[ 2011-01-12T22:12:57+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.157871s ]
+[ 2011-01-12T22:12:57+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.034350s ]
+[ 2011-01-12T22:12:57+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:12:57+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:12:57+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:13:05+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.110119s ]
+[ 2011-01-12T22:13:05+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.031495s ]
+[ 2011-01-12T22:13:05+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:13:05+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.016811s ]
+[ 2011-01-12T22:13:05+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash Model.class.php 第 835 行.
+[ 2011-01-12T22:14:27+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.112632s ]
+[ 2011-01-12T22:14:28+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.058915s ]
+[ 2011-01-12T22:14:28+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:14:28+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.045973s ]
+[ 2011-01-12T22:14:28+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash Model.class.php 第 835 行.
+[ 2011-01-12T22:14:34+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.136181s ]
+[ 2011-01-12T22:14:34+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.056415s ]
+[ 2011-01-12T22:14:34+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:14:34+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:14:34+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:14:42+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.102803s ]
+[ 2011-01-12T22:14:42+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.049167s ]
+[ 2011-01-12T22:14:42+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:14:43+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.031534s ]
+[ 2011-01-12T22:14:43+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash Model.class.php 第 835 行.
+[ 2011-01-12T22:17:50+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.122183s ]
+[ 2011-01-12T22:17:50+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.081933s ]
+[ 2011-01-12T22:17:50+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:17:50+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.086958s ]
+[ 2011-01-12T22:17:50+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash Model.class.php 第 835 行.
+[ 2011-01-12T22:17:56+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.144679s ]
+[ 2011-01-12T22:17:56+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.058594s ]
+[ 2011-01-12T22:17:56+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:17:56+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:17:56+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:18:02+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.181220s ]
+[ 2011-01-12T22:18:02+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.034547s ]
+[ 2011-01-12T22:18:02+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:18:02+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.017142s ]
+[ 2011-01-12T22:18:02+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash Model.class.php 第 835 行.
+[ 2011-01-12T22:18:49+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.109626s ]
+[ 2011-01-12T22:18:49+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.076455s ]
+[ 2011-01-12T22:18:49+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:18:49+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:18:49+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:18:55+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.174084s ]
+[ 2011-01-12T22:18:55+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.034587s ]
+[ 2011-01-12T22:18:55+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:18:55+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.031639s ]
+[ 2011-01-12T22:18:55+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash Model.class.php 第 835 行.
+[ 2011-01-12T22:20:18+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.128509s ]
+[ 2011-01-12T22:20:18+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.033186s ]
+[ 2011-01-12T22:20:18+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 5 行.
+[ 2011-01-12T22:20:18+08:00 ] NOTIC: [8] Undefined variable: isedit 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 24 行.
+[ 2011-01-12T22:20:18+08:00 ] NOTIC: [8] Undefined variable: site 5dff4cd9f0e37ed8365b9813d5e9677f.php 第 90 行.
+[ 2011-01-12T22:20:32+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.102895s ]
+[ 2011-01-12T22:20:32+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.053520s ]
+[ 2011-01-12T22:20:32+08:00 ] NOTIC: [8] Use of undefined constant ’unique’ - assumed '’unique’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:20:32+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:20:32+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.027181s ]
+[ 2011-01-12T22:20:32+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression Model.class.php 第 835 行.
+[ 2011-01-12T22:21:17+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.141217s ]
+[ 2011-01-12T22:21:17+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.036915s ]
+[ 2011-01-12T22:21:17+08:00 ] NOTIC: [8] Use of undefined constant ’unique’ - assumed '’unique’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:21:17+08:00 ] NOTIC: [8] Use of undefined constant ’confirm’ - assumed '’confirm’' ~runtime.php 第 2 行.
+[ 2011-01-12T22:21:17+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.028905s ]
+[ 2011-01-12T22:21:17+08:00 ] NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression Model.class.php 第 835 行.
+[ 2011-01-12T22:22:54+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.090996s ]
+[ 2011-01-12T22:22:54+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.074902s ]
+[ 2011-01-12T22:22:54+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.031897s ]
+[ 2011-01-12T22:22:54+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T22:22:54+08:00 ] SQL: INSERT INTO `fl_user` (`name`,`password`,`rid`,`create_time`) VALUES ('liyichao6','4297f44b13955235245b2497399d7a93','1',1294842174) [ RunTime:0.109445s ]
+[ 2011-01-12T22:22:55+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.105016s ]
+[ 2011-01-12T22:22:56+08:00 ] SQL: SELECT * FROM `fl_role` [ RunTime:0.057623s ]
+[ 2011-01-12T22:22:56+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.065132s ]
+[ 2011-01-12T22:22:56+08:00 ] SQL: SHOW COLUMNS FROM fl_role [ RunTime:0.056838s ]
+[ 2011-01-12T22:22:56+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_user user  JOIN fl_role role ON user.rid=role.id LIMIT 1  [ RunTime:0.036316s ]
+[ 2011-01-12T22:22:56+08:00 ] SQL: SELECT user.id AS id,user.name AS name,user.create_time AS create_time,role.name AS role_name FROM fl_user user  JOIN fl_role role ON user.rid=role.id ORDER BY user.id desc LIMIT 0,8  [ RunTime:0.002084s ]
+[ 2011-01-12T22:22:56+08:00 ] NOTIC: [8] Undefined variable: site 376c110d76cc23c91e9d2774dfb19bf0.php 第 5 行.
+[ 2011-01-12T22:23:44+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.068574s ]
+[ 2011-01-12T22:23:44+08:00 ] SQL: SELECT * FROM `fl_user` WHERE ( `name` = 'liyichao6' ) AND ( `password` = '4297f44b13955235245b2497399d7a93' ) LIMIT 1  [ RunTime:0.030175s ]
+[ 2011-01-12T22:24:16+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.076350s ]
+[ 2011-01-12T22:24:17+08:00 ] SQL: SELECT * FROM `fl_user` WHERE ( `name` = 'liyichao6' ) AND ( `password` = '4297f44b13955235245b2497399d7a93' ) LIMIT 1  [ RunTime:0.036506s ]
+[ 2011-01-12T22:25:00+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.092253s ]
+[ 2011-01-12T22:25:00+08:00 ] SQL: SELECT * FROM `fl_user` WHERE ( `name` = 'liyichao6' ) AND ( `password` = '4297f44b13955235245b2497399d7a93' ) LIMIT 1  [ RunTime:0.049526s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.161733s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.031819s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000420s ]
+[ 2011-01-12T22:25:02+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:25:02+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.022941s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.021125s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000475s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020957s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000912s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.052657s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.038828s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.033883s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.043249s ]
+[ 2011-01-12T22:25:02+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.002237s ]
+[ 2011-01-12T22:25:02+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:33:37+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.122063s ]
+[ 2011-01-12T22:33:37+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.032300s ]
+[ 2011-01-12T22:33:37+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000233s ]
+[ 2011-01-12T22:33:37+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:33:37+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.022829s ]
+[ 2011-01-12T22:33:37+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000875s ]
+[ 2011-01-12T22:33:37+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000465s ]
+[ 2011-01-12T22:33:37+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020578s ]
+[ 2011-01-12T22:33:37+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000538s ]
+[ 2011-01-12T22:33:37+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.051628s ]
+[ 2011-01-12T22:33:38+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.033366s ]
+[ 2011-01-12T22:33:38+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.075414s ]
+[ 2011-01-12T22:33:38+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.030084s ]
+[ 2011-01-12T22:33:38+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.001091s ]
+[ 2011-01-12T22:33:38+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:33:38+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:34:21+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.111034s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.031516s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000537s ]
+[ 2011-01-12T22:34:21+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:34:21+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.022337s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.001075s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000758s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020419s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000873s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.057212s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.034080s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.033278s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.030281s ]
+[ 2011-01-12T22:34:21+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000890s ]
+[ 2011-01-12T22:34:21+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:34:21+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:34:23+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.288239s ]
+[ 2011-01-12T22:34:23+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.052864s ]
+[ 2011-01-12T22:34:23+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000223s ]
+[ 2011-01-12T22:34:23+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:34:23+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.021910s ]
+[ 2011-01-12T22:34:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.001866s ]
+[ 2011-01-12T22:34:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000531s ]
+[ 2011-01-12T22:34:23+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020946s ]
+[ 2011-01-12T22:34:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000506s ]
+[ 2011-01-12T22:34:24+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.048011s ]
+[ 2011-01-12T22:34:24+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.053529s ]
+[ 2011-01-12T22:34:24+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.032988s ]
+[ 2011-01-12T22:34:24+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.029617s ]
+[ 2011-01-12T22:34:24+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000684s ]
+[ 2011-01-12T22:34:24+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:34:24+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:34:55+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.102535s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.033543s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000300s ]
+[ 2011-01-12T22:34:55+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:34:55+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.039260s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000591s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000430s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.024581s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000656s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.053183s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.034189s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.039705s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.035917s ]
+[ 2011-01-12T22:34:55+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000707s ]
+[ 2011-01-12T22:34:55+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:34:55+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:35:12+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.098795s ]
+[ 2011-01-12T22:35:12+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.074673s ]
+[ 2011-01-12T22:35:12+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000354s ]
+[ 2011-01-12T22:35:12+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:35:12+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.025055s ]
+[ 2011-01-12T22:35:12+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.001004s ]
+[ 2011-01-12T22:35:12+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.001118s ]
+[ 2011-01-12T22:35:12+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.025619s ]
+[ 2011-01-12T22:35:12+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000654s ]
+[ 2011-01-12T22:35:12+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.051067s ]
+[ 2011-01-12T22:35:12+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.033584s ]
+[ 2011-01-12T22:35:13+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.053092s ]
+[ 2011-01-12T22:35:13+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.028759s ]
+[ 2011-01-12T22:35:13+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000835s ]
+[ 2011-01-12T22:35:13+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:35:13+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:35:43+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.099561s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.049834s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000397s ]
+[ 2011-01-12T22:35:43+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:35:43+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.024343s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000685s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000462s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020625s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000577s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.050512s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.037479s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.054316s ]
+[ 2011-01-12T22:35:43+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.033045s ]
+[ 2011-01-12T22:35:44+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000544s ]
+[ 2011-01-12T22:35:44+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:35:44+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:36:05+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.103382s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.046866s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000446s ]
+[ 2011-01-12T22:36:05+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:36:05+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.028497s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000516s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000406s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.021998s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000643s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.051551s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.054078s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.033866s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.029629s ]
+[ 2011-01-12T22:36:05+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000559s ]
+[ 2011-01-12T22:36:05+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:36:05+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:36:49+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.113750s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.041054s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.003444s ]
+[ 2011-01-12T22:36:49+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:36:49+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.029440s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000547s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000382s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.022670s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000568s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.051613s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.033124s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.038170s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.029865s ]
+[ 2011-01-12T22:36:49+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000504s ]
+[ 2011-01-12T22:36:49+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:36:49+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:37:23+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.320027s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.062220s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000495s ]
+[ 2011-01-12T22:37:23+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:37:23+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.020148s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000773s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000478s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.021326s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000627s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.046643s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.032441s ]
+[ 2011-01-12T22:37:23+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.039416s ]
+[ 2011-01-12T22:37:24+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.031904s ]
+[ 2011-01-12T22:37:24+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000888s ]
+[ 2011-01-12T22:37:24+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:37:24+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 54 行.
+[ 2011-01-12T22:38:09+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.090619s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.047320s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.002034s ]
+[ 2011-01-12T22:38:09+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:38:09+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.031993s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000779s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000454s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.019844s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000660s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.048569s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.033716s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.030975s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.027944s ]
+[ 2011-01-12T22:38:09+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000636s ]
+[ 2011-01-12T22:38:09+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:38:09+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:38:30+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.116754s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.046900s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000336s ]
+[ 2011-01-12T22:38:30+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:38:30+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.020649s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000795s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000450s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.021303s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000717s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.050280s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.032207s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.056517s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.028352s ]
+[ 2011-01-12T22:38:30+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000700s ]
+[ 2011-01-12T22:38:30+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:38:30+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:39:08+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.108661s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.050829s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000247s ]
+[ 2011-01-12T22:39:08+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:39:08+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.019476s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000753s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000638s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.019986s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000556s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.051609s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.051930s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.046576s ]
+[ 2011-01-12T22:39:08+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.059494s ]
+[ 2011-01-12T22:39:09+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000506s ]
+[ 2011-01-12T22:39:09+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:39:09+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:39:42+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.122552s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.035448s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000288s ]
+[ 2011-01-12T22:39:42+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:39:42+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.019939s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000984s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000590s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.021563s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000931s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.055978s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.032829s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.041866s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.028145s ]
+[ 2011-01-12T22:39:42+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000680s ]
+[ 2011-01-12T22:39:42+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:39:42+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:40:12+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.100431s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.032508s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000187s ]
+[ 2011-01-12T22:40:12+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:40:12+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.020238s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000697s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.001122s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.034945s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000562s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.049961s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.035802s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.065669s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.031404s ]
+[ 2011-01-12T22:40:12+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000591s ]
+[ 2011-01-12T22:40:12+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:40:12+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:40:28+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.179616s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.036544s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000593s ]
+[ 2011-01-12T22:40:28+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:40:28+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.022273s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000484s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000350s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.023310s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000587s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.053585s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.034801s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.043272s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.038954s ]
+[ 2011-01-12T22:40:28+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000433s ]
+[ 2011-01-12T22:40:28+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:40:28+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:41:00+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.117035s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.046079s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000518s ]
+[ 2011-01-12T22:41:00+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:41:00+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.021598s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000899s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000671s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020149s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000863s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.052641s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.034051s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.044036s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.029632s ]
+[ 2011-01-12T22:41:00+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000895s ]
+[ 2011-01-12T22:41:00+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:41:00+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:41:24+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.136362s ]
+[ 2011-01-12T22:41:24+08:00 ] SQL: SELECT * FROM `fl_user` WHERE ( `name` = 'liyichao6' ) AND ( `password` = '4297f44b13955235245b2497399d7a93' ) LIMIT 1  [ RunTime:0.030627s ]
+[ 2011-01-12T22:41:25+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.115318s ]
+[ 2011-01-12T22:41:25+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.043070s ]
+[ 2011-01-12T22:41:25+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000387s ]
+[ 2011-01-12T22:41:25+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:41:25+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.020221s ]
+[ 2011-01-12T22:41:25+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000582s ]
+[ 2011-01-12T22:41:25+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000604s ]
+[ 2011-01-12T22:41:25+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.021462s ]
+[ 2011-01-12T22:41:25+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.001126s ]
+[ 2011-01-12T22:41:25+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.054684s ]
+[ 2011-01-12T22:41:26+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.065194s ]
+[ 2011-01-12T22:41:26+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.063990s ]
+[ 2011-01-12T22:41:26+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.031951s ]
+[ 2011-01-12T22:41:26+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000927s ]
+[ 2011-01-12T22:41:26+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 5 行.
+[ 2011-01-12T22:41:26+08:00 ] NOTIC: [8] Undefined variable: site 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 56 行.
+[ 2011-01-12T22:41:33+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.100010s ]
+[ 2011-01-12T22:41:33+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.061602s ]
+[ 2011-01-12T22:41:33+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 5 行.
+[ 2011-01-12T22:41:33+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T22:41:33+08:00 ] NOTIC: [8] Undefined variable: site dced81ce4adf0a0c2aa0e3274164dc64.php 第 101 行.
+[ 2011-01-12T22:56:41+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.120436s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.055519s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000634s ]
+[ 2011-01-12T22:56:41+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:56:41+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.028035s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.001452s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000975s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.024296s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000576s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.054202s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.014007s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.022071s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.034594s ]
+[ 2011-01-12T22:56:41+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000742s ]
+[ 2011-01-12T22:56:53+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.249664s ]
+[ 2011-01-12T22:56:53+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.073134s ]
+[ 2011-01-12T22:56:53+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T22:56:59+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.142537s ]
+[ 2011-01-12T22:57:00+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.034800s ]
+[ 2011-01-12T22:57:00+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.026680s ]
+[ 2011-01-12T22:57:00+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.016650s ]
+[ 2011-01-12T22:57:00+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.043781s ]
+[ 2011-01-12T22:57:00+08:00 ] NOTIC: [8] Undefined offset:  3 Model.class.php 第 858 行.
+[ 2011-01-12T22:57:00+08:00 ] SQL: INSERT INTO `fl_article` (`title`,`content`,`cid`,`uid`,`status`,`create_time`) VALUES ('12123','123123','1','3',1,1294844220) [ RunTime:0.049797s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.144829s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.034946s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000346s ]
+[ 2011-01-12T22:57:01+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:57:01+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.021555s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000561s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000567s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.022602s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000625s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.051212s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.034976s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.061483s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.032362s ]
+[ 2011-01-12T22:57:01+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.001449s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.132612s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.049129s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000379s ]
+[ 2011-01-12T22:58:50+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:58:50+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.043300s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000740s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.001276s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020901s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000899s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.061467s ]
+[ 2011-01-12T22:58:50+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.085591s ]
+[ 2011-01-12T22:58:51+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.078164s ]
+[ 2011-01-12T22:58:51+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.031703s ]
+[ 2011-01-12T22:58:51+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.001386s ]
+[ 2011-01-12T22:58:51+08:00 ] NOTIC: [8] Undefined index:  create_time IndexAction.class.php 第 14 行.
+[ 2011-01-12T22:58:51+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 44 行.
+[ 2011-01-12T22:58:51+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 45 行.
+[ 2011-01-12T22:58:51+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 46 行.
+[ 2011-01-12T22:58:51+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 47 行.
+[ 2011-01-12T22:58:51+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 48 行.
+[ 2011-01-12T22:58:51+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 49 行.
+[ 2011-01-12T22:58:51+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 49 行.
+[ 2011-01-12T22:58:54+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.343223s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.056710s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000971s ]
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T22:58:54+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.024229s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000836s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000658s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020852s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000551s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.053532s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.096431s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.111825s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.060459s ]
+[ 2011-01-12T22:58:54+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000587s ]
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Undefined index:  create_time IndexAction.class.php 第 14 行.
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 44 行.
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 45 行.
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 46 行.
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 47 行.
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 48 行.
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 49 行.
+[ 2011-01-12T22:58:54+08:00 ] NOTIC: [8] Uninitialized string offset:  0 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 49 行.
+[ 2011-01-12T23:00:05+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.135646s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.030871s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000460s ]
+[ 2011-01-12T23:00:05+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:00:05+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.020798s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000732s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000431s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.025705s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.001677s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.052388s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.032894s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.033407s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.030493s ]
+[ 2011-01-12T23:00:05+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000379s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.112095s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.030623s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000251s ]
+[ 2011-01-12T23:00:49+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:00:49+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.021007s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000534s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000386s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.022627s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.001328s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.057050s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.036407s ]
+[ 2011-01-12T23:00:49+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.035148s ]
+[ 2011-01-12T23:00:50+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.029871s ]
+[ 2011-01-12T23:00:50+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000412s ]
+[ 2011-01-12T23:00:50+08:00 ] NOTIC: [8] Undefined index:  time 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 47 行.
+[ 2011-01-12T23:00:50+08:00 ] NOTIC: [8] Undefined index:  time 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 47 行.
+[ 2011-01-12T23:01:17+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.131900s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.034988s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000384s ]
+[ 2011-01-12T23:01:17+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:01:17+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.021563s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000652s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000435s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.028510s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.001011s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.054020s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.036155s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.036378s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.032009s ]
+[ 2011-01-12T23:01:17+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000536s ]
+[ 2011-01-12T23:01:17+08:00 ] NOTIC: [8] Undefined index:  time 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 47 行.
+[ 2011-01-12T23:01:17+08:00 ] NOTIC: [8] Undefined index:  time 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 47 行.
+[ 2011-01-12T23:02:17+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.132423s ]
+[ 2011-01-12T23:02:17+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.048523s ]
+[ 2011-01-12T23:02:17+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000749s ]
+[ 2011-01-12T23:02:17+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:02:17+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.035143s ]
+[ 2011-01-12T23:02:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000929s ]
+[ 2011-01-12T23:02:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000759s ]
+[ 2011-01-12T23:02:18+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.023070s ]
+[ 2011-01-12T23:02:18+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000969s ]
+[ 2011-01-12T23:02:18+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.057874s ]
+[ 2011-01-12T23:02:18+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.037841s ]
+[ 2011-01-12T23:02:18+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.037973s ]
+[ 2011-01-12T23:02:18+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.032374s ]
+[ 2011-01-12T23:02:18+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000989s ]
+[ 2011-01-12T23:02:18+08:00 ] NOTIC: [8] Undefined index:  time 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 47 行.
+[ 2011-01-12T23:02:18+08:00 ] NOTIC: [8] Undefined index:  time 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 47 行.
+[ 2011-01-12T23:02:18+08:00 ] NOTIC: [8] Undefined index:  id 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 44 行.
+[ 2011-01-12T23:02:18+08:00 ] NOTIC: [8] Undefined index:  title 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 45 行.
+[ 2011-01-12T23:02:18+08:00 ] NOTIC: [8] Undefined index:  category_name 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 46 行.
+[ 2011-01-12T23:02:18+08:00 ] NOTIC: [8] Undefined index:  name 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 48 行.
+[ 2011-01-12T23:02:18+08:00 ] NOTIC: [8] Undefined index:  id 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 49 行.
+[ 2011-01-12T23:02:18+08:00 ] NOTIC: [8] Undefined index:  id 4d3d3b148c66e3e69213f1b3f2c9ffae.php 第 49 行.
+[ 2011-01-12T23:03:17+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.148111s ]
+[ 2011-01-12T23:03:17+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.037331s ]
+[ 2011-01-12T23:03:17+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000949s ]
+[ 2011-01-12T23:03:17+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:03:17+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.029912s ]
+[ 2011-01-12T23:03:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000551s ]
+[ 2011-01-12T23:03:17+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000426s ]
+[ 2011-01-12T23:03:18+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.021915s ]
+[ 2011-01-12T23:03:18+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000550s ]
+[ 2011-01-12T23:03:18+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.054640s ]
+[ 2011-01-12T23:03:18+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.035166s ]
+[ 2011-01-12T23:03:18+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.051705s ]
+[ 2011-01-12T23:03:18+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.034690s ]
+[ 2011-01-12T23:03:18+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000747s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.105235s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.038357s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000441s ]
+[ 2011-01-12T23:03:33+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:03:33+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.023329s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000755s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000904s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.023307s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.001151s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.060265s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.037154s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.035433s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.043237s ]
+[ 2011-01-12T23:03:33+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000963s ]
+[ 2011-01-12T23:04:31+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.157055s ]
+[ 2011-01-12T23:04:31+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.058311s ]
+[ 2011-01-12T23:04:31+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000502s ]
+[ 2011-01-12T23:04:31+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:04:32+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.024355s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.001278s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000646s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.023714s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000679s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.058386s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.061672s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.053423s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.047491s ]
+[ 2011-01-12T23:04:32+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000657s ]
+[ 2011-01-12T23:04:35+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.134689s ]
+[ 2011-01-12T23:04:35+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.042477s ]
+[ 2011-01-12T23:04:35+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.015293s ]
+[ 2011-01-12T23:04:35+08:00 ] SQL: DELETE FROM `fl_article` WHERE ( `id` = '1' ) [ RunTime:0.200319s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.132944s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.034364s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000233s ]
+[ 2011-01-12T23:04:36+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:04:36+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.021362s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000522s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000417s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.021883s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000568s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.056129s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.034230s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.042766s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.030334s ]
+[ 2011-01-12T23:04:36+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.001604s ]
+[ 2011-01-12T23:04:38+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.144562s ]
+[ 2011-01-12T23:04:38+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.039311s ]
+[ 2011-01-12T23:04:38+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000401s ]
+[ 2011-01-12T23:04:38+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:04:39+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.024502s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000586s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000367s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.023108s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000473s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.057609s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.038400s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.044576s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.031071s ]
+[ 2011-01-12T23:04:39+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000444s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.122546s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.035003s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000359s ]
+[ 2011-01-12T23:04:44+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:04:44+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.022094s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000535s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000388s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.026405s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000580s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.025841s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.029988s ]
+[ 2011-01-12T23:04:44+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000748s ]
+[ 2011-01-12T23:05:30+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.140165s ]
+[ 2011-01-12T23:05:30+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.470055s ]
+[ 2011-01-12T23:05:30+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000517s ]
+[ 2011-01-12T23:05:30+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:05:31+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.156231s ]
+[ 2011-01-12T23:05:31+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000946s ]
+[ 2011-01-12T23:05:31+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.001815s ]
+[ 2011-01-12T23:05:31+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.049803s ]
+[ 2011-01-12T23:05:31+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.001062s ]
+[ 2011-01-12T23:05:31+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.049305s ]
+[ 2011-01-12T23:05:31+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.127511s ]
+[ 2011-01-12T23:05:31+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.001201s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.147299s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.051045s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000235s ]
+[ 2011-01-12T23:06:22+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:06:22+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.027078s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.001366s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.001273s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.024683s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000928s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.014791s ]
+[ 2011-01-12T23:06:22+08:00 ] SQL: DELETE FROM `fl_category` WHERE ( `id` = '2' ) [ RunTime:0.080089s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.136979s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.034197s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000352s ]
+[ 2011-01-12T23:06:23+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:06:23+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.021248s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000928s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000652s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.022846s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.001439s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.055134s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.036348s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.049135s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.031677s ]
+[ 2011-01-12T23:06:23+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.001649s ]
+[ 2011-01-12T23:06:27+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.145457s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.053899s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000503s ]
+[ 2011-01-12T23:06:28+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:06:28+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.022772s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000784s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000749s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.022103s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000844s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.052672s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.039461s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.044538s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.030874s ]
+[ 2011-01-12T23:06:28+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000825s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.159152s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.033070s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000333s ]
+[ 2011-01-12T23:07:05+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:07:05+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.024879s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000706s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000729s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.022941s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000632s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.055216s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.034861s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.033502s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.030794s ]
+[ 2011-01-12T23:07:05+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000701s ]
+[ 2011-01-12T23:07:16+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.141697s ]
+[ 2011-01-12T23:07:16+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.053312s ]
+[ 2011-01-12T23:07:16+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T23:07:20+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.148858s ]
+[ 2011-01-12T23:07:20+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.063459s ]
+[ 2011-01-12T23:07:20+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000390s ]
+[ 2011-01-12T23:07:20+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:07:20+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.023095s ]
+[ 2011-01-12T23:07:20+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000669s ]
+[ 2011-01-12T23:07:20+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000579s ]
+[ 2011-01-12T23:07:20+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.029182s ]
+[ 2011-01-12T23:07:20+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000769s ]
+[ 2011-01-12T23:07:21+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.053865s ]
+[ 2011-01-12T23:07:21+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.034894s ]
+[ 2011-01-12T23:07:21+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.043060s ]
+[ 2011-01-12T23:07:21+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.030954s ]
+[ 2011-01-12T23:07:21+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000748s ]
+[ 2011-01-12T23:07:25+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.021893s ]
+[ 2011-01-12T23:07:25+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.063356s ]
+[ 2011-01-12T23:07:25+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T23:07:30+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.207072s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.036972s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.000530s ]
+[ 2011-01-12T23:07:30+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:07:30+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.022720s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.001123s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000946s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.022242s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000856s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.029058s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.032687s ]
+[ 2011-01-12T23:07:30+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.001283s ]
+[ 2011-01-12T23:07:31+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.133975s ]
+[ 2011-01-12T23:07:31+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.036910s ]
+[ 2011-01-12T23:07:31+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.002111s ]
+[ 2011-01-12T23:07:31+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:07:31+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.026490s ]
+[ 2011-01-12T23:07:31+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000473s ]
+[ 2011-01-12T23:07:31+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000354s ]
+[ 2011-01-12T23:07:31+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.024441s ]
+[ 2011-01-12T23:07:31+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000607s ]
+[ 2011-01-12T23:07:31+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.016934s ]
+[ 2011-01-12T23:07:32+08:00 ] SQL: DELETE FROM `fl_category` WHERE ( `id` = '1' ) [ RunTime:0.108438s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.404345s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='liyichao6' LIMIT 1  [ RunTime:0.059128s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='3' LIMIT 1  [ RunTime:0.003215s ]
+[ 2011-01-12T23:07:33+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:07:33+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.036374s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=3 LIMIT 1  [ RunTime:0.000722s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=3 LIMIT 1  [ RunTime:0.000659s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.032058s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=3 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.004996s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.040493s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_category` LIMIT 1  [ RunTime:0.045018s ]
+[ 2011-01-12T23:07:33+08:00 ] SQL: SELECT id,name,create_time FROM `fl_category` ORDER BY id desc LIMIT 0,8  [ RunTime:0.000786s ]
+[ 2011-01-12T23:07:37+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.142006s ]
+[ 2011-01-12T23:07:37+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.046651s ]
+[ 2011-01-12T23:07:37+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T23:09:53+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.176621s ]
+[ 2011-01-12T23:09:53+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.064188s ]
+[ 2011-01-12T23:09:53+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T23:10:29+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.032104s ]
+[ 2011-01-12T23:10:29+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.041678s ]
+[ 2011-01-12T23:10:29+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T23:11:46+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.168366s ]
+[ 2011-01-12T23:11:46+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.036481s ]
+[ 2011-01-12T23:11:46+08:00 ] NOTIC: [8] Undefined variable: isedit dced81ce4adf0a0c2aa0e3274164dc64.php 第 24 行.
+[ 2011-01-12T23:11:50+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-01-12T23:21:22+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.045431s ]
+[ 2011-01-12T23:21:22+08:00 ] SQL: SELECT * FROM `fl_user` WHERE ( `name` = 'admin' ) AND ( `password` = '4297f44b13955235245b2497399d7a93' ) LIMIT 1  [ RunTime:0.036431s ]
+[ 2011-01-12T23:21:23+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.020195s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='admin' LIMIT 1  [ RunTime:0.033844s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='1' LIMIT 1  [ RunTime:0.000362s ]
+[ 2011-01-12T23:21:24+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:21:24+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.019454s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=1 LIMIT 1  [ RunTime:0.000531s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=1 LIMIT 1  [ RunTime:0.000418s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.020060s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=1 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.000662s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.021428s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.049116s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.044294s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.028512s ]
+[ 2011-01-12T23:21:24+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000825s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.019271s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SELECT * FROM `fl_user` WHERE name='admin' LIMIT 1  [ RunTime:0.035767s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SELECT * FROM `fl_user` WHERE id='1' LIMIT 1  [ RunTime:0.000412s ]
+[ 2011-01-12T23:22:16+08:00 ] NOTIC: [8] Undefined index:  roleid CommonAction.class.php 第 43 行.
+[ 2011-01-12T23:22:16+08:00 ] SQL: SHOW COLUMNS FROM fl_follow [ RunTime:0.021935s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE objuid=1 LIMIT 1  [ RunTime:0.000649s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_follow` WHERE uid=1 LIMIT 1  [ RunTime:0.000635s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SHOW COLUMNS FROM fl_topic [ RunTime:0.021355s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `fl_topic` WHERE uid=1 and status=1 and (type="first" or type="transmit") LIMIT 1  [ RunTime:0.001306s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.015304s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.049758s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.041874s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.030199s ]
+[ 2011-01-12T23:22:16+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.000619s ]
+[ 2011-01-12T23:44:59+08:00 ] ERR: (ThinkException) 无法加载模块Categpry

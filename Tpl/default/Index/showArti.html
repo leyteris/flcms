@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$site.title}</title>
+<load href= "__TMPL__Public/css/reset.css" /> 
+<load href= "__TMPL__Public/css/fonts.css" />
+<load href= "__TMPL__Public/css/style.css" /> 
+</head>
+<body>
+<div id="layout">
+	<div id="header">
+    	<div id="logo">FLCMS {$site.version}</div>
+    </div>
+    <div id="wrapper">
+    	<div id="headline">
+        	<a href="{:U('index/index')}">首页</a>
+        	<a href="{:U('article/add')}">撰写文章</a>
+            <a href="{:U('admin/index')}">管理界面</a>
+        </div>
+    	<div id="side">
+       		<div class="r-pro">
+                <h1>分类列表</h1>
+                <ul>
+                	<volist name="catelist" id="vo">
+                    <li><a href="{:U('index/showCate')}?id={$vo.id}">{$vo.name}</a></li>
+                    </volist>
+                </ul>
+            </div>
+            <div class="r-pro">
+                <h1>版本信息</h1>
+                <ul>
+                    <li>FLCMS v1.2 内容管理系统</li>
+                    <li>基于thinkphp框架实现</li>
+                    <li>更新日志：</li>
+                    <li>1、增加前台用户界面，实现前后台分离</li>
+                    <li>2、修正后台权限部分添加错误的BUG</li>
+                    <li>3、修正登陆部分密码MD5验证的BUG</li>
+                    <li>4、修正撰写文章部分分类选项排序的BUG</li>
+                    <li>5、将时间改为日期</li>
+                    <li>6、修正超时登陆跳转提示问题</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="artBody">
+            	<h2>{$list.title}</h2>
+                <div class="dots"></div>
+                <span class="details">
+               		 发布于{$list.time} By {$list.name}  分类: <a href="#" title="asd" rel="category">{$list.category_name}</a>
+                </span>
+                <div class="p">{$list.content}</div>
+            </div>
+        </volist>
+        </div>
+    </div>
+    <div id="footer">
+    	<p>{$site.copyright}</p>
+    </div>
+</div>
+</body>
+</html>

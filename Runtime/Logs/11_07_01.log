@@ -1,0 +1,7 @@
+[ 2011-07-01T08:01:00+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.142334s ]
+[ 2011-07-01T08:01:01+08:00 ] SQL: SELECT * FROM `fl_category` [ RunTime:0.001223s ]
+[ 2011-07-01T08:01:01+08:00 ] SQL: SHOW COLUMNS FROM fl_article [ RunTime:0.106546s ]
+[ 2011-07-01T08:01:01+08:00 ] SQL: SHOW COLUMNS FROM fl_category [ RunTime:0.005239s ]
+[ 2011-07-01T08:01:01+08:00 ] SQL: SHOW COLUMNS FROM fl_user [ RunTime:0.175860s ]
+[ 2011-07-01T08:01:01+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 LIMIT 1  [ RunTime:0.004658s ]
+[ 2011-07-01T08:01:01+08:00 ] SQL: SELECT article.id AS id,article.title AS title,article.create_time AS create_time,article.content AS content,category.id AS category_id,category.name AS category_name,user.name AS name FROM fl_article article  JOIN fl_category category ON article.cid=category.id  JOIN fl_user user ON article.uid=user.id WHERE status=1 ORDER BY article.id desc LIMIT 0,8  [ RunTime:0.005651s ]

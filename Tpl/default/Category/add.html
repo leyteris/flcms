@@ -1,0 +1,39 @@
+<include file="Public:header" />
+        <div id="wrapper">
+        <if condition= "$isedit neq 1"> 
+        	<div id="maintitle">
+            	<span id="thistitle">>>添加分类</span>
+            	<a class="floatright" href="{:U('global/logout')}">注销</a>
+	            <span class="floatright">欢迎您！{@UserName}  </span>
+            </div>
+            <div id="main">
+                <form name="form" id="form" action="{:U('category/doAdd')}" method="post">
+                    <div class="item">
+                        <label for="name">
+                            	分类名称：
+                        </label>
+                        <input type="text" name="name" id="name" class="input" />
+                    </div>
+                    <input type="submit" class="inputneedmar" name="submit" id="submit" value="  提 交  " tabindex="120" />
+                </form>
+         <else />
+        	<div id="maintitle">
+            	<span id="thistitle">>>编辑分类</span>
+            	<a class="floatright" href="{:U('global/logout')}">注销</a>
+	            <span class="floatright">欢迎您！{@UserName}  </span>
+            </div>
+            <div id="main">
+                <form name="form" id="form" action="{:U('category/doEdit')}" method="post">
+                    <div class="item">
+                        <label for="name">
+                            	分类名称：
+                        </label>
+                        <input type="text" name="name" id="name" class="input" value="{$cate.name}" />
+                    </div>
+                    <input name="id" type="hidden"  value="{$cate.id}"  />
+                    <input type="submit" class="inputneedmar" name="submit" id="submit" value="  提 交  " tabindex="120" />
+                </form>
+         </if>
+            </div>
+        </div>
+<include file="Public:footer" />

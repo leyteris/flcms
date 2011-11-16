@@ -1,0 +1,111 @@
+<include file="Public:header" />
+        <div id="wrapper">
+        <if condition= "$isedit neq 1"> 
+        	<div id="maintitle">
+            	<span id="thistitle">>>添加权限</span>
+            	<a class="floatright" href="{:U('global/logout')}">注销</a>
+	            <span class="floatright">欢迎您！{@UserName}  </span>
+            </div>
+            <div id="main">
+                <form name="form" id="form" action="{:U('role/doAdd')}" method="post">
+                    <div class="item">
+                        <label for="name">
+                            	权限名称：
+                        </label>
+                        <input type="text" name="name" id="name" class="input" />
+                    </div>
+                    <div class="item">
+                        <label for="delright">
+                            	删除权限：
+                        </label>
+                        <select name="delright" class="input" id="delright">
+                        	<option value="0">无</option>
+                            <option value="1">有</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label for="editright">
+                            	编辑权限：
+                        </label>
+                        <select name="editright" class="input" id="editright">
+                        	<option value="0">无</option>
+                            <option value="1">有</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label for="creright">
+                            	创建权限：
+                        </label>
+                        <select name="creright" class="input" id="creright">
+                        	<option value="0">无</option>
+                            <option value="1">有</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label for="issuper">
+                            	superadmin
+                        </label>
+                        <select name="issuper" class="input" id="issuper">
+                        	<option value="0">否</option>
+                            <option value="1">是</option>
+                        </select>
+                    </div>
+                    <input type="submit" class="inputneedmar" name="submit" id="submit" value="  提 交  " tabindex="120" />
+                </form>
+            <else />
+        	<div id="maintitle">
+            	<span id="thistitle">>>编辑用户</span>
+            	<a class="floatright" href="{:U('global/logout')}">注销</a>
+	            <span class="floatright">欢迎您！{@UserName}  </span>
+            </div>
+            <div id="main">
+                <form name="form" id="form" action="{:U('role/doEdit')}" method="post">
+                    <div class="item">
+                        <label for="name">
+                            	权限名称：
+                        </label>
+                        <input type="text" name="name" id="name" class="input" value="{$r.name}" />
+                    </div>
+                    <div class="item">
+                        <label for="delright">
+                            	删除权限：
+                        </label>
+                        <select name="delright" class="input" id="delright">
+                        	<option value="0">无</option>
+                            <option value="1" <?php if($r["delright"] == 1): ?>selected=""<?php endif; ?>>有</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label for="editright">
+                            	编辑权限：
+                        </label>
+                        <select name="editright" class="input" id="editright">
+                        	<option value="0">无</option>
+                            <option value="1" <?php if($r["editright"] == 1): ?>selected=""<?php endif; ?>>有</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label for="creright">
+                            	创建权限：
+                        </label>
+                        <select name="creright" class="input" id="creright">
+                        	<option value="0">无</option>
+                            <option value="1" <?php if($r["creright"] == 1): ?>selected=""<?php endif; ?>>有</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label for="issuper">
+                            	superadmin
+                        </label>
+                        <select name="issuper" class="input" id="issuper">
+                        	<option value="0">否</option>
+                            <option value="1"  <?php if($r["issuper"] == 1): ?>selected=""<?php endif; ?>>是</option>
+                        </select>
+                    </div>
+                    <input name="id" type="hidden"  value="{$r.id}"  />
+                    <input type="submit" class="inputneedmar" name="submit" id="submit" value="  提 交  " tabindex="120" />
+                </form>
+              </if>
+            </div>
+        </div>
+<include file="Public:footer" />
